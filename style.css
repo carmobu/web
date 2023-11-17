@@ -1,0 +1,236 @@
+body{
+    background-color: #d6cfc8 ;
+    font-family: 'Playfair Display SC', serif;
+    color: #322203;
+    
+}
+
+
+
+.navbar{
+    background-color:  rgba(214, 207, 200, 1);
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+}
+
+
+/* --- header ---*/
+
+header{
+    background-image: url(assets/Ph-home.webp);
+    background-size: cover;
+    background-position: center;
+    height: 480px;    
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold; 
+}
+
+.hueco {
+    height: 150px;
+}
+
+.barra-trans{
+    background-color: rgba(214, 207, 200, 0.4); 
+    color: white;
+    
+}
+
+.fixed-bottom-right {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* --- main ---*/
+
+main {
+    height: 425px; 
+    background-color: #d6cfc8;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold; 
+    color: #322203;   
+
+}
+.hueco-main{
+    height: 25px;
+}
+
+.blusa{
+    background-image: url(assets/blusa.jpg);
+    background-size: cover;
+    background-position: center;
+    border: solid 4px white;
+    height: 120px;    
+}
+
+.bolsos{
+    background-image: url(assets/bolsos.jpg);
+    background-size: cover;
+    background-position: center;
+    border: solid 4px white;
+    height: 120px;
+    
+}
+
+.conjunto{
+    background-image: url(assets/conjunto.jpg);
+    background-size: cover;
+    background-position: center;
+    border: solid 6px whitesmoke;
+    height: 120px;
+}
+
+.colecciones{
+    border: 2px solid #9c9369
+
+}
+
+.comodo{
+    background-color: #d7af73;
+}
+
+.linea-grafica {
+    border-bottom: 1px solid #9c9369;
+    height: 0;
+    
+}
+
+.texto-vertical {
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    transform: scaleY(1);
+    transform-origin: 50% 50%;
+    background-color: #9c9369;
+    width: 30px;
+    
+}
+
+/* --- aside ---*/
+
+aside{
+    height: 400px; 
+    background: linear-gradient(to bottom, #d6cfc8 50%, #fff 50%);
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold; 
+    color: #322203;
+}
+
+.blusa-negra{
+    background-image: url(assets/blusa-negra.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 120px;
+}
+.bolso-2{
+    background-image: url(assets/bolso-2.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 120px;
+}
+.vestido{
+    background-image: url(assets/vestido.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 120px;
+}
+
+.elegant{
+    background-color: #c6938c;
+}
+
+.aestetic{
+    background-color: #389bad;
+}
+
+/* --- unicos ---*/
+.unicos{
+    height: 465px; 
+    background: linear-gradient(to bottom, #d6cfc8 50%, #fff 50%);
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold; 
+    color: #322203;
+
+}
+
+.bolso-3{
+    background-image: url(assets/bolso-3.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 120px;
+}
+.bolso-4{
+    background-image: url(assets/bolso-4.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 120px;
+}
+.vestido-2{
+    background-image: url(assets/vestido-2.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 120px;
+}
+.top-colores{
+    background-image: url(assets/top-colores.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 120px;
+}
+.conjunto-2{
+    background-image: url(assets/conjunto-2.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 120px;
+}
+.top-blanco{
+    background-image: url(assets/top-blanco.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 120px;
+}
+.vestido-de-banio{
+    background-image: url(assets/vestido-de-banio.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 120px;
+}
+.blusa-bicolor{
+    background-image: url(assets/blusa-bicolor.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 120px;
+}
+
+/* --- mim's girls ---*/
+
+.mimis-girls{
+    height: 440px; 
+    background-color: #d6cfc8;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold; 
+    color: #322203;
+}
+
+.contenedor-imagen {
+    width: 50px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+.imagen-redondeada {
+    width: 100%; /* Ajusta la imagen para llenar el contenedor */
+    height: 100%;
+    object-fit: cover; /* Ajusta el tamaño de la imagen manteniendo su relación de aspecto */
+    border-radius: 50%;
+  }
+
+/* --- contacto ---*/
+
+.contacto{
+    height: 350px; 
+    background-color: white;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold; 
+    color: #322203;
+}
