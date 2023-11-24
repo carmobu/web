@@ -1,5 +1,5 @@
 body{
-    background-color: #d6cfc8 ;
+    background-image: url(assets/Ph-home.webp);
     font-family: 'Playfair Display SC', serif;
     color: #322203;
     
@@ -20,13 +20,13 @@ header{
     background-image: url(assets/Ph-home.webp);
     background-size: cover;
     background-position: center;
-    height: 480px;    
+    height: 100vh;    
     font-family: 'Playfair Display SC', serif;
     font-weight: bold; 
 }
 
 .hueco {
-    height: 150px;
+    height: 40vh;
 }
 
 .barra-trans{
@@ -44,7 +44,7 @@ header{
 /* --- main ---*/
 
 main {
-    height: 425px; 
+    height: 100vh; 
     background-color: #d6cfc8;
     font-family: 'Playfair Display SC', serif;
     font-weight: bold; 
@@ -57,27 +57,27 @@ main {
 
 .blusa{
     background-image: url(assets/blusa.jpg);
-    background-size: cover;
-    background-position: center;
-    border: solid 4px white;
-    height: 120px;    
+    
 }
 
 .bolsos{
     background-image: url(assets/bolsos.jpg);
-    background-size: cover;
-    background-position: center;
-    border: solid 4px white;
-    height: 120px;
+   
     
 }
 
 .conjunto{
     background-image: url(assets/conjunto.jpg);
+   
+}
+
+.ropa{
+    height: 40vh;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     border: solid 6px whitesmoke;
-    height: 120px;
+    
 }
 
 .colecciones{
@@ -108,7 +108,7 @@ main {
 /* --- aside ---*/
 
 aside{
-    height: 400px; 
+    height: 100vh; 
     background: linear-gradient(to bottom, #d6cfc8 50%, #fff 50%);
     font-family: 'Playfair Display SC', serif;
     font-weight: bold; 
@@ -117,21 +117,15 @@ aside{
 
 .blusa-negra{
     background-image: url(assets/blusa-negra.jpg);
-    background-size: cover;
-    background-position: center;    
-    height: 120px;
+   
 }
 .bolso-2{
     background-image: url(assets/bolso-2.jpg);
-    background-size: cover;
-    background-position: center;    
-    height: 120px;
+  
 }
 .vestido{
     background-image: url(assets/vestido.jpg);
-    background-size: cover;
-    background-position: center;    
-    height: 120px;
+    
 }
 
 .elegant{
@@ -144,7 +138,7 @@ aside{
 
 /* --- unicos ---*/
 .unicos{
-    height: 465px; 
+    height: 100vh;
     background: linear-gradient(to bottom, #d6cfc8 50%, #fff 50%);
     font-family: 'Playfair Display SC', serif;
     font-weight: bold; 
@@ -154,61 +148,57 @@ aside{
 
 .bolso-3{
     background-image: url(assets/bolso-3.jpg);
-    background-size: cover;
-    background-position: center;    
-    height: 120px;
+    
 }
 .bolso-4{
     background-image: url(assets/bolso-4.jpg);
-    background-size: cover;
-    background-position: center;    
-    height: 120px;
+   
 }
 .vestido-2{
     background-image: url(assets/vestido-2.jpg);
-    background-size: cover;
-    background-position: center;    
-    height: 120px;
+  
 }
 .top-colores{
     background-image: url(assets/top-colores.jpg);
-    background-size: cover;
-    background-position: center;    
-    height: 120px;
+   
 }
 .conjunto-2{
     background-image: url(assets/conjunto-2.jpg);
-    background-size: cover;
-    background-position: center;    
-    height: 120px;
+   
 }
 .top-blanco{
     background-image: url(assets/top-blanco.jpg);
-    background-size: cover;
-    background-position: center;    
-    height: 120px;
+   
 }
 .vestido-de-banio{
     background-image: url(assets/vestido-de-banio.jpg);
-    background-size: cover;
-    background-position: center;    
-    height: 120px;
 }
 .blusa-bicolor{
     background-image: url(assets/blusa-bicolor.jpg);
+
+}
+
+.ropa1{
+    height: 25vh;
     background-size: cover;
-    background-position: center;    
-    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 6px whitesmoke; 
 }
 
 /* --- mim's girls ---*/
 
 .mimis-girls{
-    height: 440px; 
+    height: 80vh; 
     background-color: #d6cfc8;
     font-family: 'Playfair Display SC', serif;
     font-weight: bold; 
     color: #322203;
+}
+
+.mimis{
+    font-size: 25px;
+    margin-bottom: 3vh;
 }
 
 .contenedor-imagen {
@@ -219,18 +209,193 @@ aside{
   }
 
 .imagen-redondeada {
-    width: 100%; /* Ajusta la imagen para llenar el contenedor */
+    width: 100%; 
     height: 100%;
-    object-fit: cover; /* Ajusta el tamaño de la imagen manteniendo su relación de aspecto */
+    object-fit: cover;
     border-radius: 50%;
   }
 
 /* --- contacto ---*/
 
 .contacto{
-    height: 350px; 
+    height: 70vh;
     background-color: white;
     font-family: 'Playfair Display SC', serif;
     font-weight: bold; 
     color: #322203;
+}
+
+.contactanos{
+    font-size: 24px;
+}
+
+.iconos{
+    height: 20px; 
+    width: 20px; 
+}
+
+.telefono{
+    height: 230px; 
+    width: 120px; 
+    margin-left: 4px;
+}
+
+.politicas{
+    font-size: 10px;
+}
+
+@media screen and (min-width: 767px) {
+    .titulo{
+        font-size: 70px;
+    }
+    .piezas{
+        font-size: 20px;
+        padding-bottom: 5%;
+    }
+    #boton{
+        height: 80px;
+        width: 200px;
+        font-size: 30px;        
+    }
+
+    .colecciones{
+        font-size: 40px;
+    }
+
+    .texto-vertical{
+        font-size: 30px;        
+    }
+
+    .caption{
+        font-size: 30px;
+    }
+
+    .comodo{
+        
+        font-size: 30px;
+    }
+
+    .ropa{
+        height: 60vh;
+    }    
+
+    .best-sellers{
+        font-size: 40px;
+    }
+   
+    .elegant{
+        font-size: 25px;
+    }
+
+    .caption-price{
+        font-size: 20px;
+        text-align: left;
+    }
+    .aestetic{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .unicos-personalizados{
+        font-size: 30px;
+    }
+    
+    .ropa1{
+        height: 28vh;
+    }
+
+    .mimis{
+        font-size: 60px;
+    }
+
+    .contenedor-imagen {
+        width: 150px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 50%;
+      }
+
+    .nombre{
+        font-size: 30px;
+    }
+
+    .description{
+        font-size: 15px;
+    }
+
+    .contacto{
+        height: 60vh;
+    }
+
+    .contactanos{
+        font-size: 40px;
+    }
+
+    .numero{
+        font-size: 20px;
+    }
+
+    .iconos{
+        height: 30px; 
+        width: 30px; 
+    }
+
+    .telefono{
+        height: 345px; 
+        width: 180px; 
+        margin-left: 4px;
+    }
+
+    .politicas{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .ropa1{
+        height: 50vh;
+    }
+
+    .unicos{
+        height: 168vh;
+        background: linear-gradient(to bottom, #d6cfc8 50%, #fff 50%);
+        font-family: 'Playfair Display SC', serif;
+        font-weight: bold; 
+        color: #322203;
+    
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .ropa1{
+        height: 60vh;
+    }
+
+    .unicos{
+        height: 200vh;
+        background: linear-gradient(to bottom, #d6cfc8 50%, #fff 50%);
+        font-family: 'Playfair Display SC', serif;
+        font-weight: bold; 
+        color: #322203;
+    
+    }
+
+    .contenedor-imagen {
+        width: 200px;
+        height: 400px;
+        overflow: hidden;
+        border-radius: 50%;
+      }
+
+      .mimis-girls{
+        height: 100vh;
+      }
+
+      .telefono{
+        height: 500px; 
+        width: 250px; 
+        margin-left: 200px;
+    }
 }
