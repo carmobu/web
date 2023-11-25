@@ -3,6 +3,7 @@ body{
     font-family: 'Playfair Display SC', serif;
     color: #322203;
     
+    
 }
 
 
@@ -22,7 +23,7 @@ header{
     background-position: center;
     height: 100vh;    
     font-family: 'Playfair Display SC', serif;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 .hueco {
@@ -48,7 +49,7 @@ main {
     background-color: #d6cfc8;
     font-family: 'Playfair Display SC', serif;
     font-weight: bold; 
-    color: #322203;   
+    color: #322203;    
 
 }
 .hueco-main{
@@ -84,6 +85,7 @@ main {
     border: 2px solid #9c9369
 
 }
+
 
 .comodo{
     background-color: #d7af73;
@@ -244,7 +246,42 @@ aside{
     font-size: 10px;
 }
 
+@media screen and (min-width: 415px) {
+    main {
+        height: 70vh;
+    }
+    aside{
+        height: 70vh;
+    }
+    .unicos{
+        height: 88vh;
+    }
+    .mimis-girls{
+        height: 40vh;
+    }
+    .contacto{
+        height: 45vh;
+    }
+
+}
+
 @media screen and (min-width: 767px) {
+    main {
+        height: 100vh;
+    }
+    aside{
+        height: 100vh;
+    }
+    .unicos{
+        height: 100vh;
+    }
+    .mimis-girls{
+        height: 70vh;
+    }
+    .contacto{
+        height: 70vh;
+    }
+
     .titulo{
         font-size: 70px;
     }
@@ -397,5 +434,6 @@ aside{
         height: 500px; 
         width: 250px; 
         margin-left: 200px;
-    }
+    }    
 }
+
